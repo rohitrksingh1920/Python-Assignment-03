@@ -1,23 +1,27 @@
-(a) Difference between Method Overriding and Method Overloading (with example)
+**(a) Difference between Method Overriding and Method Overloading (with example)**
 
-feature                Method Overriding                                                             Method Overloading
+**Method Overriding:**
+| Feature    | Description                                                                                                     |
+| ---------- | --------------------------------------------------------------------------------------------------------------- |
+| Definition | When a child class provides its own implementation of a method that already exists in the parent class.         |
+| Occurs in  | Inheritance                                                                                                     |
+| Purpose    | To change/modify the behavior of a parent class method.                                                         |
+| Parameters | Must have same name, same parameters, and same return type.                                                     |
+| Type       | Runtime polymorphism                                                                                            |
 
-Defination             When a child class provides its own implementation                            When multiple methods have same name but different number
-                       of a method that already exists in the parent class.                          of parameters or different types of parameters.
-
-Occurs in              Parent-Child class                                                            Same class                      
-
-Purpose                Same Method name, different argument count                                    Modify/Extend parent method behaviour
-
-Support in             Does not support directly, used default args/*args                            Directly Supported
-Python
-
-Related to             Compile-time polymorphism                                                     Run-time Polymorphism
+**Method Overloading:**
+| Feature    | Description                                                                                                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| Definition | When multiple methods have same name but different number of parameters or different types of parameters.             |
+| Occurs in  | Same class                                                                                                            |
+| Purpose    | To perform similar tasks with different inputs.                                                                       |
+| Parameters | Must be different.                                                                                                    |
+| Type       | Compile-time polymorphism (not fully supported in Python)                                                             |
 
 <img width="1920" height="1080" alt="Screenshot (324)" src="https://github.com/user-attachments/assets/4049f0c6-1314-4e82-a606-803957bcf092" />
 <img width="1920" height="1080" alt="Screenshot (325)" src="https://github.com/user-attachments/assets/82f0b3b5-1025-45f7-b1ba-8a21bd2846ae" />
 
-(b) Role and Types of Constructors in Python (with example)
+**(b) Role and Types of Constructors in Python (with example)**
 
 Role of Constructors
 
@@ -40,14 +44,14 @@ Python supports it indirectly using default arguments.
 <img width="1920" height="1080" alt="Screenshot (328)" src="https://github.com/user-attachments/assets/c63aceb7-1337-4edb-9db1-304ebce61190" />
 
 
-Author
+**Author**
 
-Name : Rohit
-Roll number : 2501060098
-Section : "A"
-Program : BCA(AI & DS)
-Course : Problem Solving with Python
-Assignment : 03
+**Name : Rohit**
+**Roll number : 2501060098**
+**Section : "A"**
+**Program : BCA(AI & DS)**
+**Course : Problem Solving with Python**
+**Assignment : 03**
 
 
 
